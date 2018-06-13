@@ -57,4 +57,17 @@ li a:hover {
     vertical-align: middle;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 10px;
+  background-color: white;
+  padding: 10px;
+}
+.grid-container > div {
+  background-color: #F7CFFF;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
 
